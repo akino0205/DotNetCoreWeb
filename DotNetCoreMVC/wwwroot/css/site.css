@@ -1,18 +1,46 @@
+/* 기본 스타일 */
 html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+/* 푸터 스타일 */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+/* 카드 스타일 */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+/* 점보트론 스타일 */
+.jumbotron {
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+    padding: 2rem 1rem;
+}
+
+/* 폼 스타일 */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* 버튼 스타일 */
+.btn {
+    margin-right: 5px;
 }

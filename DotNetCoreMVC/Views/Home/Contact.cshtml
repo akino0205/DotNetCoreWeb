@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "연락처";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4>연락처 정보</h4>
+        <address>
+            123 웹사이트 주소<br />
+            서울특별시, 12345<br />
+            <abbr title="전화번호">P:</abbr> 02-123-4567
+        </address>
+        <address>
+            <strong>고객지원:</strong> <a href="mailto:support@mywebapp.com">support@mywebapp.com</a><br />
+            <strong>마케팅:</strong> <a href="mailto:marketing@mywebapp.com">marketing@mywebapp.com</a>
+        </address>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">문의하기</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" class="form-control" id="name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" class="form-control" id="email" placeholder="이메일을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">메시지</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="메시지를 입력하세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">보내기</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

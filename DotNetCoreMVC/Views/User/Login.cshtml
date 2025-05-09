@@ -1,0 +1,57 @@
+﻿@model DotNetCoreMVC.Models.User
+
+@{
+    ViewData["Title"] = "로그인";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="Login" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">로그인 상태 유지</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="로그인" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">로그인 안내</h5>
+                <p>계정이 없으신가요? <a asp-action="Register">회원가입하기</a></p>
+                <hr />
+                <p>로그인하면 다음과 같은 기능을 이용할 수 있습니다:</p>
+                <ul>
+                    <li>개인 대시보드 접근</li>
+                    <li>저장된 콘텐츠 관리</li>
+                    <li>개인 설정 변경</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

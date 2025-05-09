@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreMVC", "DotNetCoreMVC\DotNetCoreMVC.csproj", "{273E2484-8813-4B83-A688-49B4B534CFB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreMVC", "DotNetCoreMVC\DotNetCoreMVC.csproj", "{52AAB821-557A-4479-80EC-FB9D6F652252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreBlazorAssembly", "DotNetCoreBlazorAssembly\DotNetCoreBlazorAssembly.csproj", "{2AAD28DB-FE1B-432E-9A70-E4ADB7689208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{273E2484-8813-4B83-A688-49B4B534CFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{273E2484-8813-4B83-A688-49B4B534CFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{273E2484-8813-4B83-A688-49B4B534CFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{273E2484-8813-4B83-A688-49B4B534CFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AAB821-557A-4479-80EC-FB9D6F652252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AAB821-557A-4479-80EC-FB9D6F652252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AAB821-557A-4479-80EC-FB9D6F652252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AAB821-557A-4479-80EC-FB9D6F652252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAD28DB-FE1B-432E-9A70-E4ADB7689208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAD28DB-FE1B-432E-9A70-E4ADB7689208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAD28DB-FE1B-432E-9A70-E4ADB7689208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAD28DB-FE1B-432E-9A70-E4ADB7689208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
